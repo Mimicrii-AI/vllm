@@ -17,3 +17,4 @@ torchvision
 pytorch-triton-xpu
 --extra-index-url=https://pytorch-extension.intel.com/release-whl/stable/xpu/us/
 intel-extension-for-pytorch==2.8.10+xpu
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
